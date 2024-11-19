@@ -288,6 +288,7 @@ ul {
   background: #dadada;
   margin-top: 0px;
 }
+/* strockes 1 */
 .circle_1 {
   position: absolute;
   margin-left: 150px;
@@ -319,3 +320,14 @@ ul {
   margin-left: 310px;
   overflow: hidden;
 }
+/* ?\\\\\\ */
+
+/* strockes 2 */
+.circles__2{
+    /* position: absolute; */
+  margin-top: -470px;
+  margin-left: -400px;
+  /* overflow: hidden; */
+    /* right: 102px; */
+}
+/* ?\\\\\\ */
