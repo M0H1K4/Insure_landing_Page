@@ -360,13 +360,13 @@ ul {
   color: white;
   display: none; /* Initially hidden */
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   z-index: 1000; /* Ensures it stays on top */
   overflow-y: auto; /* Allows scrolling if content overflows */
 
   /* align-items: center; */
   width: 100%;
-  height: 587px;
+  height: 100vh;
   display: none;
   margin-top: 80px;
 }
