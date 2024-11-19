@@ -41,7 +41,16 @@ body {
   height: 32px;
   flex-shrink: 0;
   border: none;
+  /* display: none; */
+
   /* background-color: white; */
+}
+.burger_close_button {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: none;
+  display: none;
 }
 /* .burger_open_button:hover {
   border: none;
@@ -323,22 +332,74 @@ ul {
 /* ?\\\\\\ */
 
 /* strockes 2 */
-.circles__2{
-    position: absolute;
+.circles__2 {
+  position: absolute;
   margin-top: -200px;
   margin-left: -400px;
   transform: rotate(30deg);
   /* overflow: hidden; */
-    /* right: 102px; */
+  /* right: 102px; */
 }
-.circles__3{
-    position: absolute;
-    margin-left: 240px;
-    margin-top: 300px;
-    /* overflow: hidden; */
+.circles__3 {
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 300px;
+  /* overflow: hidden; */
 }
-.circle__4{
-    position: absolute;
-    margin-top: -670px;
+.circle__4 {
+  position: absolute;
+  margin-top: -670px;
+}
+.navigation {
+  position: fixed; /* Ensures it overlays the content */
+  top: 0; /* Aligns to the top of the viewport */
+  left: 0; /* Aligns to the left of the viewport */
+  width: 100%; /* Full width of the screen */
+  height: 100vh; /* Full height of the screen */
+  background: #2c2830;
+  color: white;
+  display: none; /* Initially hidden */
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1000; /* Ensures it stays on top */
+  overflow-y: auto; /* Allows scrolling if content overflows */
+
+  /* align-items: center; */
+  width: 100%;
+  height: 587px;
+  display: none;
+  margin-top: 80px;
+}
+.navigation.visable {
+  display: flex;
+}
+.burger_close_button.visable {
+  display: inline-block;
+}
+.burger_open_button.hidden {
+  display: none;
+}
+.menu-links {
+  margin-top: 50px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Karla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 200% */
+  letter-spacing: 1.364px;
+}
+.a_as_button {
+    display: flex;
+justify-content: center;
+align-items: center;
+  width: 327px;
+  height: 56px;
+  flex-shrink: 0;
+  border: 1.5px solid #fff;
 }
 /* ?\\\\\\ */
