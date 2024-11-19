@@ -285,6 +285,37 @@ ul {
   width: 327px;
   height: 1px;
   flex-shrink: 0;
-  background: #DADADA;
+  background: #dadada;
   margin-top: 0px;
+}
+.circle_1 {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -20px;
+  /* margin-left: 200px;
+    overflow: hidden; */
+}
+.circle_2 {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 200px;
+  overflow: hidden;
+}
+.circle_3 {
+  position: absolute;
+  margin-top: -115px;
+  margin-left: 245px;
+  overflow: hidden;
+}
+.circle_4 {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 290px;
+  overflow: hidden;
+}
+.circle_5 {
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 310px;
+  overflow: hidden;
 }
