@@ -324,10 +324,21 @@ ul {
 
 /* strockes 2 */
 .circles__2{
-    /* position: absolute; */
-  margin-top: -470px;
+    position: absolute;
+  margin-top: -200px;
   margin-left: -400px;
+  transform: rotate(30deg);
   /* overflow: hidden; */
     /* right: 102px; */
+}
+.circles__3{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 300px;
+    /* overflow: hidden; */
+}
+.circle__4{
+    position: absolute;
+    margin-top: -670px;
 }
 /* ?\\\\\\ */
